@@ -1,0 +1,168 @@
+<html>
+<head>
+   <title>Lush42 Website Design</title> 
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/9ebb7d0c59.js" crossorigin="anonymous"></script>
+    <!--For Mobile-->
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>   
+</head>
+<body>
+<section id="banner">   
+    <img src="images/logo_3.png" class="logo_3"> 
+    <div class="banner-text">
+        <h1>Lush42 Salon</h1>
+        <p>Just a tad bit of lush</p>
+        <div class="banner-btn">
+           <a href="#"><span></span><i class="fa-solid fa-phone">9719574349</i></a>
+           <a href="#"><span></span><i class="fa-brands fa-instagram" style="font-size: 100%;"></i>Instagram </a>
+        </div>
+    </div>
+</section> 
+    
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#banner">HOME</a></li> 
+            <li><a href="#feature">FEATURES</a></li> 
+            <li><a href="#">SERVICES</a></li> 
+            <li><a href="#">TESTIMONIALS</a></li> 
+            <li><a href="#footer">MEET US</a></li> 
+        </ul>
+    </nav>   
+</div>
+<div id="menuBtn">
+    <img src="images/menu.png" id="menu">   
+</div>  
+    
+    
+<!--Features-->
+    
+<section id="feature">
+<div class="title-text">
+<p>FEATURES</p>
+<h1>Why Choose Us</h1>
+</div>  
+<div class="feature-box">
+    <div class="features">
+       <h1>Experienced Staff</h1>
+        <div class="feature-desc">
+             <div class="feature-icon">
+                  <i class="fa-solid fa-shield-halved"></i>
+            </div>
+             <div class="feature-text">
+                 <p>Service is the diva of our industry, and we treat her like one.
+               Get groomed by our wonderful staff and their talent.</p>
+             </div>
+        </div>
+        <h1>Pre Booking Available</h1>
+        <div class="feature-desc">
+             <div class="feature-icon">
+                  <i class="fa-solid fa-calendar-check"></i>
+            </div>
+             <div class="feature-text">
+                 <p>Book an Appointment at your convenience by calling us at our number or DM us on Instagram.</p>
+             </div>
+        </div>
+        <h1>Affordable Cost</h1>
+        <div class="feature-desc">
+             <div class="feature-icon">
+                  <i class="fa-solid fa-inr"></i>
+            </div>
+             <div class="feature-text">
+                 <p>We provide the best cost to performance while maintaining Human element. Give us chance to acquire your service. </p>
+             </div>
+        </div>
+   </div>
+    <div class="features-img">
+       <img src="images/IMG_20211231_194635.jpg">
+ </div>
+</div>    
+</section>
+    
+<!--Service-->
+    
+ <!--Testimonials-->
+    
+ <!--footer-->
+    
+ <section id="footer">
+     <div class="title-text">
+     <p>CONTACT</p>
+     <h1>Meet Us Today</h1>     
+     </div>
+ <div class="footer-row">
+ <div class="footer-left">
+      <h1>Opening Hours</h1>
+      <p><i class="fa-solid fa-clock"></i>Monday to Sunday - 11am to 9pm</p>
+      <p><i class="fa-solid fa-bed"></i>Thursday off</p>
+ </div> 
+ <div class="footer-right">
+      <h1>Get in Touch</h1>
+      <p>Gali Arya Samaj, Kutub Khana, Bareilly<i class="fa-solid fa-map-marker"></i></p>
+      <p>monalisabeautyparlorbly@gmail.com<i class="fa-solid fa-paper-plane"></i></p>
+      <p>+91 9719574349<i class="fa-solid fa-phone"></i></p>
+      <p>+91 7017438049<i class="fa-brands fa-whatsapp"></i></p>
+     
+</div>
+ </div>
+     
+     
+<div class="Social-links">
+     <i class="fa-brands fa-whatsapp"></i>
+     <i class="fa-brands fa-instagram"></i>
+     <i class="fa-brands fa-youtube"></i>
+     <i class="fa-brands fa-facebook"></i>  
+     <p>Copyright to Lush42 Pvt. Limited</p>
+</div>
+    
+ </section>
+    
+    
+   
+<script>
+var menuBtn = document.getElementById("menuBtn") 
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right =  "-250px"
+
+menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "images/close.png";
+    }
+    else{
+        sideNav.style.right = "-250px";
+        menu.src = "images/menu.png";
+    }
+}
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+    
+    
+</script>
+    
+</body>    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
